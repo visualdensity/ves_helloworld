@@ -13,12 +13,10 @@
     },
     "autoload": {
         "files": [ 
-          "registration.php",
-          "vendor/autoload.php"
+          "registration.php"
         ],
         "psr-4": {
-          "Ves\\HelloWorld\\": "",
-          "Buzz\\": "vendor/buzz"
+          "Ves\\HelloWorld\\": ""
         }
     },
     "extra": {
