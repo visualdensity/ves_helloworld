@@ -21,9 +21,12 @@
           "Buzz\\": "vendor/buzz"
         }
     },
-    "extra": [
-        "map" : [
-          [ "*", "Ves/HelloWorld" ]
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Ves/HelloWorld"
+            ]
         ]
-    ]
+    }
 }
