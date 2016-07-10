@@ -8,16 +8,7 @@
         "AFL-3.0"
     ],
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
         "kriswallsmith/buzz" : "~0.15"
-    },
-    "autoload": {
-        "files": [ 
-          "registration.php"
-        ],
-        "psr-4": {
-          "Ves\\HelloWorld\\": ""
-        }
     },
     "extra": {
         "map": [
