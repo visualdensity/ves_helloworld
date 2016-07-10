@@ -1,0 +1,29 @@
+{
+    "name": "ves/helloworld",
+    "description": "Hello world module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "kriswallsmith/buzz" : "~0.15"
+    },
+    "autoload": {
+        "files": [ 
+          "registration.php",
+          "vendor/autoload.php"
+        ],
+        "psr-4": {
+          "Ves\\HelloWorld\\": "",
+          "Buzz\\": "vendor/buzz"
+        }
+    },
+    "extra": [
+        "map" : [
+          [ "*", "Ves/HelloWorld" ]
+        ]
+    ]
+}

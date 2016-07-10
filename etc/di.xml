@@ -1,0 +1,8 @@
+<config>
+  <!-- Object Manager configuration -->
+  <!-- 
+  <type name="Class\To\Modify">
+    <plugin name="someUniqueName" type="Class\Containing\Plugins" sortOrder="1" />
+  </type>
+   -->
+</config>
